@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f1fff5;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  header h1 {
+    color: #007a4d;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #3a925c;
+  }
+  
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .tab {
+    background-color: #d4fcdc;
+    color: #1f7a3a;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .tab:hover {
+    background-color: #1f7a3a;
+    color: white;
+    border-color: #1f7a3a;
+  }
+  
+  .tab.active {
+    background-color: #1f7a3a;
+    color: white;
+  }
+  
+  .main-card {
+    background: linear-gradient(90deg, #e1fff0, #d9ffe8);
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .main-image {
+    max-width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .welcome-msg {
+    font-size: 1.1rem;
+    max-width: 500px;
+  }
+  
